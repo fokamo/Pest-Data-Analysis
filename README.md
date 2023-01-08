@@ -1,4 +1,4 @@
--- Introduction --
+## Introduction
 
 This is code produced during an internship with a federal agency. Due to the
 nature of the work, I can't post it publicly in its original form. Thus
@@ -25,7 +25,7 @@ the code on GitHub just to prove I know R. Because this is a pretty nice big
 project, I thought it would be useful. To me. Really, it isn't useful to anyone
 else. I made a README since I know you're supposed to for projects.
 
--- Script organization --
+## Script organization
 
 Quite a few things here have dependencies. Libraries used include ggplot (for
 graphing), stringr (for regex-ing, mostly on comments), and ggpubr (for the
@@ -46,7 +46,7 @@ fundamentally unredactable, for example, turning on specific data points.
 
 Helpers: base_map, by_month, calc_season, chart_maker
 
--- Understanding individual scripts --
+## Understanding individual scripts
 
 The top of each file has a one-line description of what it does. In helpers,
 this is followed by a list of things "Meant for further use" - globals exported
